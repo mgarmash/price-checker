@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="koi8-r"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="welcome"><![CDATA[<html><img src="file:///home/linx/projects/price-checker/img/discount.jpg" width=1024 height=768><div style='font-size: 50; color:blue; text-align:center;'><p>Поднесите товар к сканнеру</p></div></html>]]></entry>
+    <entry key="getting-data"><![CDATA[<html><div style='font-size: 200%; color:blue; text-align:center;'><p>Получение</p><p>данных</p></div></html>]]></entry>
+    <entry key="barcode"><![CDATA[<html><div style='font-size: 200%; color:blue; text-align:center;'><p>$barcode</p></div></html>]]></entry>
+    <entry key="incorrect-barcode"><![CDATA[<html><div style='font-size: 200%; color:red; text-align:center;'><p>Ошибка чтения </p><p>штрих-кода</p></div></html>]]></entry>
+    <entry key="price"><![CDATA[<html><div style='font-size: 200%; color:green; text-align:center;'><p>$name</p><p>$price</p></div></html>]]></entry>
+    <entry key="check-error"><![CDATA[<html><div style='font-size: 200%; color:red; text-align:center;'><p>Ошибка получения </p><p>цены</p></div></html>]]></entry>
+    <entry key="price-not-found"><![CDATA[<html><div style='font-size: 200%; color:red; text-align:center;'><p>Товар не найден</p></div></html>]]></entry>
+    <entry key="input-delay">500</entry>
+    <entry key="idle-delay">3000</entry>
+    <entry key="barcode-show-delay">1000</entry>
+    <entry key="host">CPV_SERVER_HOST</entry>
+    <entry key="port">CPV_SERVER_PORT</entry>
+    <entry key="server-encoding">CP866</entry>
+    <entry key="retry">3</entry>
+    <entry key="error-detection-regex">.*К сожалению товар.*</entry>
+    <entry key="barcode-regex">\d+</entry>
+    <entry key="trim-leading-zeroes">true</entry>
+    <entry key="serial-port">SCANNER_DEVICE</entry>
+    <entry key="serial-speed">SCANNER_SPEED</entry>
+    <entry key="serial-data-bits">SCANNER_DATA_BITS</entry>
+    <entry key="serial-stop-bits">SCANNER_STOP_BIT</entry>
+    <entry key="serial-parity">SCANNER_PARITY</entry>
+</properties>
